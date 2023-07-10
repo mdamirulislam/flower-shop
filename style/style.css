@@ -209,7 +209,61 @@ text-decoration-line: underline;
     
 .featured-text h3{
     color: #272727;
-text-align: center;
 font-size: 40px;
 font-weight: 800;
+}
+.special-services{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 130px;
+}
+.special-services-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.special-services-section h3{
+    color: #272727;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+.special-services-section .main-col{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.special-services-section i{
+    font-size: 50px;
+    margin-right: 20px;
+    color: #E55473;
+
+}
+.service-description{
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    line-height: normal;
+    
+}
+.special-services .col{
+    height: 100px;
+    box-shadow: 5px 5px 30px lightgray;
+    margin: 20px 5px ;
+    border-radius: 10px;
+    /* border: 1px solid #E55473; */
+
+
+}
+
+.service-title{
+    text-align: center;
+}
+.service-title h2{
+    font-size: 40px;
+    font-weight: 700;
 }
