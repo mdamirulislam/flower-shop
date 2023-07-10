@@ -63,9 +63,10 @@ nav ul li {
     margin-right: 10px;
     font-size: 20px;
     font-weight: 600;
-    color: white;
-    background-color: #E55473;
-    padding: 10px 20px;
+    color: #E55473;
+    /* background-color: #E55473; */
+    border: 1px solid #E55473;
+    padding: 5px 20px;
     border-radius: 8px;
 
 }
