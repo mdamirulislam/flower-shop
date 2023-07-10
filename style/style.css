@@ -164,3 +164,52 @@ font-weight: 800;
 font-size: 16px;
 font-weight: 400;
 }
+
+.featured{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.featured-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    text-align: center;
+}
+.card p{
+    color: #272727;
+font-size: 24px;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+}
+.card-img img{
+    width: 350px;
+    height: 400px;
+    background-color: #E55473;
+    padding: 50px;
+    margin: 5px;
+    padding-bottom: 0;
+    border-radius: 48% 48% 0 0;
+}
+.card-1 img{
+    background-color: rgba(167, 33, 98, 0.15);
+}
+.card-2 img{
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.card-3 img{
+    background: rgba(71, 125, 17, 0.15);
+}
+.featured-text{
+    text-align: center;
+}
+    
+.featured-text h3{
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
