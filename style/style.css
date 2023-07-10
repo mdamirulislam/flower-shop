@@ -262,8 +262,7 @@ font-weight: 800;
     padding: 30px;
 }
 
-.special-services-section i{
-    font-size: 50px;
+.special-services-section img{
     margin-right: 20px;
     color: #E55473;
 
@@ -276,11 +275,9 @@ font-weight: 800;
     
 }
 .special-services .col{
-    height: 100px;
     box-shadow: 5px 5px 30px lightgray;
     margin: 20px 5px ;
     border-radius: 10px;
-    /* border: 1px solid #E55473; */
 
 
 }
@@ -291,4 +288,16 @@ font-weight: 800;
 .service-title h2{
     font-size: 40px;
     font-weight: 700;
+}
+
+.map-item{
+    text-align: center;
+}
+
+.map-title{
+    margin: 20px;
+    margin-top: 130px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
 }
